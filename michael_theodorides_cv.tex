@@ -16,7 +16,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+\documentclass[margin, 11pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
 
 \usepackage{helvet} % Default font is the helvetica postscript font
 %\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
@@ -32,7 +32,7 @@ anchorcolor = blue]{hyperref}
 
 \begin{document}
 
-    \moveleft.5\hoffset\centerline{\huge\bf Michael Theodorides}
+    \moveleft.5\hoffset\centerline{\huge\textbf{Michael Theodorides}}
 
     \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt} %\smallskip
 
@@ -43,60 +43,63 @@ anchorcolor = blue]{hyperref}
         %Talented young engineer looking to work in a team of hackers, that are passionate about their code.
         %I don't mind new challenges; late night coding sessions; or freaked out customers; i just want it to be fun, and meaningful.
 
-        \section{PERSONAL \\ INFORMATION}
+        \section{PERSONAL \\ INFORMATION}\label{sec:personalinformation}
 
         \begin{tabular}{p{0.2\linewidth} p{0.75\linewidth}}
 
-            Date of birth & August 31st, 1990        \\
-            Nationality & Greek                   \\
-            Email & mc.theodorides@gmail.com          \\
-            Phone nu. & (+357) 99-112779                  \\
+            Date of birth & August 31st, 1990                               \\
+            Nationality & Greek                                             \\
+            Email & mc.theodorides@gmail.com                                \\
+            Phone Nu. & (+357)99112779                                      \\
             Address & Agiou Nektariou 7, fl. 202, 3090 Limassol Cyprus.
 
         \end{tabular}\\
 
-        \section{EDUCATION}
+        \section{EDUCATION}\label{sec:education}
 
         Bachelor in electrical engineering, computer engineering and informatics, \\
         from Cyprus university of technology.
 
-        \section{SKILLS}
+        \section{SKILLS}\label{sec:skills}
 
         \begin{tabular}{p{0.2\linewidth} p{0.75\linewidth}}
 
-            Languages & Greek(native), English(fluent), Russian(Very good)                    \\
+            Languages & Greek(native), English(fluent), Russian(Very good) \\
             Other & Agile and effective, quick learner, Team player, Project and time management, Organizational skills.
 
         \end{tabular}
 
-        \section{JOB RELATED SKILLS}
+        \section{JOB RELATED SKILLS}\label{sec:job-related-skills}
 
         \begin{tabular}{p{0.2\linewidth} p{0.75\linewidth}}
 
-            Languages & JavaScript(ES7, typescript), SCSS, HTML5, Python, Go \\
-            Software & Idea, Webpack, Pm2, Git, Linux \\
-            Databases & CouchDb, PostgreSQL, MongoDB, Redis
+            Languages & JavaScript(ES, typescript), SCSS, HTML5, Python, Go \\
+            Software & Linux, Webstorm, Docker, Git, make \\
+            Databases & MongoDB, ELK, Redis, CouchDb, PostgreSQL, Mysql
 
         \end{tabular}
 
-        \section{EXPERIENCE}
+        \section{EXPERIENCE}\label{sec:experience}
 
         \textsc{ \textbf{Work}}
 
         \begin{itemize}
-            \item[Feb 2019 - present] Senior full stack engineer at \href{http://prixie.net}{prixie.net}.  \\
+            \item[Feb 2019 - present] Senior full stack engineer at \href{http://prixie.net}{prixie.net}.
+            Working with Angular, Cypress, Nodejs, NWjs, Python, Docker, Mongo, Mysql, Redis, ELK, and RethinkDb
 
-            \item[Sep 2018 - Feb 2019] Senior frond end engineer at \href{http://impactechs.com}{impactechs.com}.  \\
+            \item[Sep 2018 - Feb 2019] Senior frond end engineer at \href{http://impactechs.com}{impactechs.com}.
+            Working with Angular, Protractor, Docker
 
-            \item[Feb 2018 - Sep 2018] Full stack team leader at cs circles solutions  \\
+            \item[Feb 2018 - Sep 2018] Full stack team leader at cs circles solutions.
+            Working with Angular, Protractor, Ionic, Nodejs, Jest, Docker, GO, CouchDB, and Redis
 
-            \item[Jul 2016 - Feb 2018] Full stack web engineer at cs circles solutions \\
+            \item[Jul 2016 - Feb 2018] Full stack web engineer at cs circles solutions.
+            Working with Angular, Nodejs, and GO
 
-            \item[Dec 2014 - Jul 2016] Full stack web engineer at
-            \href{https://proto.io/}{proto.io}. \\
+            \item[Dec 2014 - Jul 2016] Full stack web engineer at \href{https://proto.io/}{proto.io}.
+            Working with Vanilla JavaScript, Nodejs, and Redis
 
-            \item[Summer 2012 intern] Junior C\#(WPF, WCF) software engineer in mobility devision at
-            \href{http://www.datatech.com.cy/}{datatech.com.cy}. \\
+            \item[Summer 2012 intern] Junior C\#(WPF, WCF) software engineer in mobility devision at \href{http://www.datatech.com.cy/}{datatech.com.cy}.
 
         \end{itemize}
 
@@ -106,20 +109,11 @@ anchorcolor = blue]{hyperref}
 
             \item[puppyjs] A framework agnostic E2E testing and mocking tool for front end developers.
 
-            \href{http://www.puppyjs.com}{puppyjs.com} \\
-
-            \item[qcchat] A webRTC based text,audio, and video chatting application written in node.js.
-            This application was developed for my thesis.
-
-            \href{https://github.com/michaelthe/web_chatting}{github.com/michaelthe/web\_chatting} \\
-
-            \item[Karategeek] CMS for Cyprus fudokan karate-do federation which is still in use.
-
-            \href{https://github.com/KarateGeekTeamCY/KarateGeekCsharpEdition/tree/baseV4.5.1}{github.com/KarateGeekTeamCY/KarateGeekCsharpEdition} \\
+            \href{https://github.com/michaelthe/puppyjs}{puppyjs}
 
         \end{itemize}
 
-        \section{Interests}
+        \section{Interests}\label{sec:interests}
 
         Member of \href{http://hack66.info/}{hack66}, reader, road cyclist, boxer, and blood donor(O+).
 
